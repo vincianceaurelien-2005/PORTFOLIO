@@ -1,0 +1,32 @@
+:root{color-scheme:dark;--ink:#eff3ff;--muted:#939db3;--line:#273149;--lime:#a58bfa;--paper:#0b1020;background:#0b1020;color:#eff3ff;--display:'Manrope',sans-serif}
+body{background:#0b1020;color:#eff3ff}
+.site-header{background:rgba(11,16,32,.91);border-color:#273149}
+.brand-mark,.footer-brand{border-color:#495674;color:#eef2ff}
+.brand-mark span,.footer-brand span{color:#8bb7ff}
+.brand-name span{color:#8591aa}
+.main-nav>a:not(.nav-cta){color:#b3bdd1}.main-nav>a:not(.nav-cta):hover{color:#a58bfa}
+.nav-cta{border-color:#47536e;color:#e7ebf7}.nav-cta:hover{background:#273149;color:#fff}
+.availability{border-color:#334366;background:#111a2e;color:#b8c9ec}.availability>span,.label-dot{background:#66a5ff;box-shadow:0 0 0 4px #66a5ff25}
+.hero-overline,.section-index{color:#8996b2}
+.hero h1,.about-layout h2,.projects-heading h2,.contact-card h2{color:#eff3ff}
+.hero h1 em,.about-layout h2 em,.projects-heading h2 em{background:linear-gradient(95deg,#72b6ff,#b397ff 78%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-intro,.about-copy,.projects-heading>p{color:#9ba6bb}
+.button-dark{background:#416ed1;color:white}.button-dark:hover{background:#5885e7}
+.text-link,.underlined-link{color:#dce5fa}.text-link:hover,.underlined-link:hover{color:#91baff}
+.hero-meta{border-color:#273149;color:#8995ab}.hero-meta b{color:#dce6fa}
+.art-grid{background-image:linear-gradient(#1d2940 1px,transparent 1px),linear-gradient(90deg,#1d2940 1px,transparent 1px)}
+.art-orbit{border-color:#273653}
+.browser-card{background:#151e31;border-color:#2e3a53;box-shadow:0 30px 70px #0005}
+.browser-bar{border-color:#28334a;color:#8692a9}.browser-dots i,.window-top i{background:#56627a}.browser-content{color:#eef2ff}.browser-kicker{color:#8c9ab4}.browser-title strong{color:#9c8cff}.browser-line{background:#2a3650}.browser-bottom{color:#aeb9ce}.browser-circle{background:#263d62;color:#a9cdff}
+.floating-label{background:#172137;border-color:#2d3a55;color:#c5cee0;box-shadow:0 9px 28px #0004}.sparkle{color:#a58bfa}.hero-stamp{border-color:#627aa4;color:#afbdd6}.hero-stamp b{color:#83b3ff}.scroll-cue{color:#8996b2}.scroll-line{background:#709cf0}
+.about-section{border-color:#273149}.skill-row{border-color:#273149}.skill-label{color:#8e9ab0}.skill-pills span,.project-tags span,.modal-tags span{border-color:#34415b;color:#b7c2d8;background:#141d30}
+.projects-section{background:#101729}.project-toolbar{border-color:#2a354c;color:#929db3}.filter{color:#a4aec1}.filter.active,.filter:hover{background:#1b2740;border-color:#3b4b6b;color:#eef3ff}
+.project-visual.blue{background:#18375b}.project-visual.lavender{background:#292447}.project-visual.violet{background:#3a294a}
+.project-number{color:#b4c8e8}.project-number i{color:#7d91ad}.project-window{background:#17233a;border-color:#344561;box-shadow:0 15px 35px #0005}.window-top{border-color:#2d3b55}.window-body{background:#17233a}.window-sidebar{background:#263650}.window-main i{background:#24334d}.window-main i:first-child{background:#36568a}.window-main i:nth-child(2){background:#202f49}.project-orb{background:#76aaff;color:#102343}.lavender .project-orb{background:#ad91ff;color:#261858}.violet .project-orb{background:#c18bfa;color:#3d2059}
+.project-category{color:#98a5bb}.project-category i{color:#66758e}.project-info h3{color:#e9efff}.round-arrow{border-color:#394762;color:#d4ddf0}.round-arrow:hover{background:#4a72cb;border-color:#4a72cb;color:#fff}.project-tags span{color:#aab6cd}.projects-note{border-color:#2a354c;color:#9da9be}.projects-note b{color:#e3eafd}.note-star{color:#a58bfa}
+.contact-card{background:linear-gradient(120deg,#172746 0%,#202043 58%,#2a2044 100%);border:1px solid #354267}.contact-card .section-index{color:#aebddd}.contact-card h2 em{color:#a58bfa;background:none}.contact-left>p{color:#bbc7df}.button-light{background:#a58bfa;color:#17152a}.button-light:hover{background:#baa8ff}.contact-caption{color:#aebddb}.email-link{color:#f0f3ff}.copy-button{color:#b3bfd7}.contact-socials{border-color:#495475}.contact-socials a{color:#d0d9ef}.contact-decoration{color:#ffffff08}.contact-decoration span{color:#a58bfa20}
+.site-footer{border-color:#273149;color:#8e9ab0}.back-top{color:#c4cde0}
+.project-modal{background:#131c2e;color:#ecf1ff;border:1px solid #34415c}.modal-close{border-color:#3a4864;color:#e8edfa}.project-modal h2{color:#f0f3ff}.project-modal>p{color:#aab5ca}
+.menu-toggle{border-color:#33415c}.menu-toggle i{background:#e4eafa}
+::selection{background:#6651a8;color:#fff}
+@media(max-width:680px){.main-nav{background:#101729;border-color:#2b3750}.main-nav>a:not(.nav-cta){border-color:#29354c;color:#d6def0}}
