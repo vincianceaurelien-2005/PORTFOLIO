@@ -30,3 +30,6 @@ body{background:#0b1020;color:#eff3ff}
 .menu-toggle{border-color:#33415c}.menu-toggle i{background:#e4eafa}
 ::selection{background:#6651a8;color:#fff}
 @media(max-width:680px){.main-nav{background:#101729;border-color:#2b3750}.main-nav>a:not(.nav-cta){border-color:#29354c;color:#d6def0}}
+
+.project-visual.mint{background:#173d3a}
+.project-visual.peach{background:#4a3226}

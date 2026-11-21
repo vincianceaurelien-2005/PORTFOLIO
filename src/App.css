@@ -38,3 +38,9 @@ body{height:100vh;height:100dvh;overflow:hidden}#root{display:flex;flex-directio
 
 /* Captures entieres, ajustees dans leur cadre */
 .project-illustration{width:84%;height:76%}.project-cover{object-fit:contain;background:#fff;border:1px solid #ffffff;border-radius:4px;box-shadow:0 12px 28px #28372920}.project-visual:hover .project-cover{transform:none}.modal-gallery img{height:160px;object-fit:contain;object-position:center;padding:5px;background:#fff}@media(max-width:680px){.modal-gallery img{height:120px}}
+
+.hero-actions{flex-wrap:wrap}
+.skill-row{grid-template-columns:200px 1fr}
+.project-modal .hero-actions{margin-top:20px}
+
+.project-description{margin:8px 0 0;color:var(--muted);font-size:11px;line-height:1.6;max-width:42ch}.project-github{display:inline-flex;align-items:center;gap:7px;margin-top:11px;color:var(--ink);font:10px var(--mono);text-decoration:underline;text-underline-offset:3px}.project-github svg{width:13px;height:13px}
