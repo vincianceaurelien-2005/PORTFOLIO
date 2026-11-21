@@ -1,16 +1,30 @@
-# React + Vite
+# Portfolio - Vinciance Aurelien
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Portfolio personnel de RANDRIAMANANA Vinciance Aurelien, developpeur full stack et etudiant en informatique a l'ENI de l'Universite de Fianarantsoa.
 
-Currently, two official plugins are available:
+## Contenu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Presentation et competences
+- Projets d'applications web avec descriptions et captures d'ecran
+- Formulaire de contact et coordonnees
+- Interface responsive construite avec React et Vite
 
-## React Compiler
+## Demarrer en local
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Prerequis : Node.js et npm.
 
-## Expanding the Oxlint configuration
+```sh
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Verifier et construire
+
+```sh
+npm run build
+npm run preview
+```
+
+## Mettre a jour le portfolio
+
+Les projets et leurs captures sont definis dans `src/data/projects.js`. Les composants d'interface se trouvent dans `src/components/`. Avant publication, verifier les coordonnees, les liens vers chaque depot source, ainsi que l'URL publique dans les metadonnees SEO de `index.html`.
